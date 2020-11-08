@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
                     public void run() {
                         UserAdapter adapter = new UserAdapter(MainActivity.this, speeds);
                         mRecyclerView.setAdapter(adapter);
-                        
+                        String o = String.valueOf(over);
                     }
                 });
 
